@@ -1,0 +1,57 @@
+formas de aplicar um codigo css.
+TAG <style></style>
+
+declacao inline <p style="">
+
+mas a melhor forma é ter um arquivo externo css
+
+cria um <link rel="stylesheet" type="text/css" href="style.css"
+dentro do head.
+
+regra basica do CSS é fazer um seletor, e entre chaves voce vai ter as propriedade e valores desse seletor, encerrando sempre com ";"
+seletor{
+    propriedade: valor;
+    propriedade 2: valor2;
+}
+
+conceito de container, uma div inteira que engloba o pacote que vai ficar dentro de um container. Serve para nao perder a formatacao quando o usuario altera o tamanho da pagina.
+
+CSS
+
+Folhas de estilo em cascata.
+
+Declarar CSS Inline:
+
+<div style = …></div>
+<p style=….></p>
+
+Declarar css pela tag style:
+
+<style>
+	p{
+		…
+	{
+</style>
+
+Declarar por importacao:
+
+criar arquivo com extensao .css a parte.
+<head>
+
+	<link rel=“styleshee” type=“text/css” href=“nome do arquivo.css”/>
+
+</head>
+
+
+Seletores para usar css, pode ser classes, ID, tags
+
+ID = identificador unico, por elemento. Identificador unico na pagina. Declarados no arquivo css com #
+Classe= pode ter varios IDs. Classe pode ser usado para varios elementos.
+Declarados no arquivo css com .
+
+Box model:
+Margin = margem no contorno
+padding= margem interna
+border= borda entre margem e padding
+
+se declararmos 2 tamanhos (20px e 10px) quer dizer que a margem de cima tem 20px e a do lado 10px
